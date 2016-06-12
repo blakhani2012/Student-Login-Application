@@ -1,0 +1,64 @@
+<html>
+<body>
+	<form action="http://localhost:8080/studentsApp/login" method="post">
+		
+		<B>My Name is :</B>
+		<bR>
+		<input type="text" name="myName" />
+		<bR><bR>
+		
+		<B>My Password is : </B>
+		<bR>
+		<input type="password" name="pass" />
+		<bR><bR>
+		
+		<B>My Gender is : </B>
+		<bR>
+		<input type="radio" name="gender" value="male"/>Male
+		<bR>
+		<input type="radio" name="gender" value="female"/>Female
+		<bR><bR>
+		
+		<B>My Education is : </B>
+		<bR>
+		<select name="education">
+			<option value="">--- Select ---</option>
+			<option value="ec">B.E (Electronics & Communication)</option>
+			<option value="ee">B.E (Electrical & Electronics)</option>
+			<option value="mech">B.E (Mechanical)</option>
+			<option value="cs">B.E (Computer Science)</option>
+			<option value="is">B.E (Information Science)</option>
+		</select>
+		<bR><bR>
+		
+		<B>I know :</B>
+		<bR>
+		<input type="checkbox" name="knows" value="java">Core Java 
+		<bR>
+		<input type="checkbox" name="knows" value="jdbc">JDBC 
+		<bR>
+		<input type="checkbox" name="knows" value="servlets">Servlets 
+		<bR>
+		<input type="checkbox" name="knows" value="jsp">JSP 
+		<bR><bR>
+		
+		<B>I have :</B>
+		<bR>
+		<select multiple="multiple" name="owns">
+			<option value="bicycle">Bicycle</option>
+			<option value="motorcycle">Motor Cycle</option>
+			<option value="car">Car</option>
+			<option value="tractor">Tractor</option>
+			<option value="truck">Truck</option>
+		</select>		
+		<bR><bR>
+		
+		<B>About Me :</B>
+		<bR>
+		<textarea rows="5" cols="100" name="aboutme"></textarea>
+		<bR><bR>
+		
+		<input type="submit" value="Submit Form" />
+	</form>
+</body>
+</html>
